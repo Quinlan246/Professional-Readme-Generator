@@ -18,7 +18,7 @@ function generateMarkdown(answers) {
   ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
   ## Description
-  🔍 ${answers.description}
+   ${answers.description}
 
   ## Table of Contents
   - [Description](#description)
@@ -30,10 +30,10 @@ function generateMarkdown(answers) {
   - [Questions](#questions)
 
   ## Installation
-  💾 ${answers.installation}
+   ${answers.installation}
 
   ## Usage
-  💻 ${answers.usage}
+   ${answers.usage}
 
   ## License
   ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
@@ -41,13 +41,13 @@ function generateMarkdown(answers) {
   This application is covered by the ${answers.license} license.
 
   ## Contributing
-  👪 ${answers.contributing}
+   ${answers.contributing}
 
   ## Tests
   - ${answers.tests}
 
   ## Questions
-  ✋ ${answers.questions}<br />
+   ${answers.questions}<br />
   <br />
   Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
   <br />
